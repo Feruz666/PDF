@@ -1,3 +1,4 @@
+import os
 import numpy as np, scipy.stats as st
 from numpy.lib.arraypad import pad
 from scipy import stats
@@ -9,7 +10,7 @@ from sklearn.neighbors import KernelDensity
 np.set_printoptions(suppress=True)
 
 
-df = pd.read_excel ('book.xlsx')
+df = pd.read_excel("book.xlsx")
 df_list = df.to_numpy()
 tr_dflist = df_list.transpose()
 

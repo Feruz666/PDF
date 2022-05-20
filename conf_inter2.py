@@ -152,18 +152,18 @@ ax.plot(xs95_new,ys95_new, 'b-', label = "95% R", markersize=4)
 ax.plot(xe95_new,ye95_new, 'b-', label = "95% L", markersize=4)
 ax.legend()
 plt.show()
-"""
-Working version - DONT TOUCH!!!
-plt.plot(xm_new, ym_new, x,m_list, 'r-', label = "Mean")
-plt.plot(x,start_50_l, 'y-', label = "50% R", markersize=4)
-plt.plot(x,end_50_l, 'y-', label = "50% L", markersize=4)
-plt.plot(x,start_75_l, 'g-', label = "75% R", markersize=4)
-plt.plot(x,end_75_l, 'g-', label = "75% L", markersize=4)
-plt.plot(x,start_95_l, 'b-', label = "95% R", markersize=4)
-plt.plot(x,end_95_l, 'b-', label = "95% L", markersize=4)
-plt.legend()
-plt.show()
-"""
+
+# Working version - DONT TOUCH!!!
+# plt.plot(xm_new, ym_new, x,m_list, 'r-', label = "Mean")
+# plt.plot(x,start_50_l, 'y-', label = "50% R", markersize=4)
+# plt.plot(x,end_50_l, 'y-', label = "50% L", markersize=4)
+# plt.plot(x,start_75_l, 'g-', label = "75% R", markersize=4)
+# plt.plot(x,end_75_l, 'g-', label = "75% L", markersize=4)
+# plt.plot(x,start_95_l, 'b-', label = "95% R", markersize=4)
+# plt.plot(x,end_95_l, 'b-', label = "95% L", markersize=4)
+# plt.legend()
+# plt.show()
+
 
 
 
